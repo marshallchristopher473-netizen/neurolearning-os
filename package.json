@@ -1,25 +1,19 @@
 {
-  "name": "neurolearning-os",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.56.0",
-    "@supabase/supabase-js": "^2.0.0",
-"dependencies": {
-  "next": "^15.5.0",
-  "react": "^19.0.0",
-  "react-dom": "^19.0.0"
+"name":"neurolearning-os",
+
+"dependencies":{
+
+"next":"latest",
+"react":"latest",
+"typescript":"latest",
+"tailwindcss":"latest",
+
+"@prisma/client":"latest",
+"openai":"latest",
+
+"zustand":"latest",
+"zod":"latest"
+
 }
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^22",
-    "@types/react": "^19"
-  }
+
 }
