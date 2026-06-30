@@ -1,13 +1,29 @@
-export default function Home() {
-  return (
-    <main className="p-10">
-      <h1 className="text-4xl font-bold">
-        NeuroLearning OS
-      </h1>
+import BarsPlanner from "@/components/BarsPlanner"
+import AnxietyMeter from "@/components/AnxietyMeter"
 
-      <p>
-        AI-powered SPED, ADHD, and learning support platform.
-      </p>
-    </main>
-  );
+
+export default function Dashboard(){
+
+
+return (
+
+<div>
+
+
+<h1>
+Student Dashboard
+</h1>
+
+
+<AnxietyMeter/>
+
+
+<BarsPlanner/>
+
+
+</div>
+
+
+)
+
 }
