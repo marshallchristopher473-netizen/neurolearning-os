@@ -1,1 +1,4 @@
-
+frontend/middleware.ts
+frontend/lib/api.ts
+frontend/lib/auth.ts
+frontend/app/globals.css
